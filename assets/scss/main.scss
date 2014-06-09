@@ -10,7 +10,10 @@
   font-family: 'Ubuntu', sans-serif;
 }
 
+// Template Variables
 $border-radius: 2px;
+$color-primary: #4DA6E2;
+$color-link: #4A90E2;
 
 html, body {
   height: 100%;
@@ -20,7 +23,7 @@ html, body {
 }
 
 a {
-  color: #4A90E2;
+  color: $color-link;
   text-decoration: none;
 }
 
@@ -32,7 +35,7 @@ a {
   top: 0;
   left: 0;
   bottom: 0;
-  background: #4DA6E2;
+  background: $color-primary;
   background-image: url('/assets/img/sidebar_back.png');
   background-size: cover;
   background-position: center bottom;
