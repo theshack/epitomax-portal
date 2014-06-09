@@ -13,7 +13,3 @@ http://my.epitomax.net/PatientPortal/signup.jsp?company_id=COMPANYID&case_no=CAS
 ```
 
 The company ID value is stored in /assets/js/main.js under the variable `companyId`.
-
-# TODO
-
-- Make Client ID Number required
