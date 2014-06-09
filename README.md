@@ -7,8 +7,9 @@ This is the open sourced version of the client portal we're using at Renewal Cen
 
 ### Dependencies
 - IE 9 and above
+- Javascript Enabled
 
-### Config Portal
+### Configuration
 
 The config.js file holds all the business information and should be the only file that needs to be modified. 
 
@@ -20,6 +21,10 @@ config = {
 }
 
 ```
+
+### Setup
+
+We have a short term goal to develop a bootstrap script to setup both the local and prodcution enviornments. This project can be run on GitHub pages for free with a few simple steps. (coming soon)
 
 ### Development
  
