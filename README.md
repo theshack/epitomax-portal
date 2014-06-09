@@ -2,7 +2,7 @@
 
 This branch is the user kiosk for the office locations. Deployable instructions will be added soon.
 
-This project uses Sass and Compass. (Learn how to set those up here.)[http://thesassway.com/beginner/getting-started-with-sass-and-compass].
+This project uses Sass and Compass. [Learn how to set those up here](http://thesassway.com/beginner/getting-started-with-sass-and-compass).
 
 To customize this page for other accounts, change the company ID value, which you get from the Epitomax Patient Portal signup URL.
 
