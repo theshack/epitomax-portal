@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+<head>
+  <title>Patient Portal</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+  <script type="text/javascript" src="/assets/js/jquery.min.js"></script>
+  <script type="text/javascript" src="/assets/js/main.js"></script>
+  <script type="text/javascript" src="/assets/js/happy.js"></script>
+  <script>
+      $(document).ready(function () {
+        $('#awesomeFormSubmitButton').isHappy({
+          submitButton: '#submitTheForm',
+          fields: {
+            '#clientid': {
+                required: true,
+                message: 'Please enter a valid Client ID'
+            }
+            }
+        });
+      });
+  </script>
+</head>
+<body>
+
+  <div class="banner">
+    <h1>Renewal Christian Counseling Center Patient Portal</h1>
+    <div class="brand">
+      <img src="assets/img/epitomax.png"/>
+    </div>
+  </div>
+
+  <div class="content">
+    <div class="wrap-content">
+      <h3>Welcome to the Renewal patient portal. Please start with your client ID number from the email sent to you or via desk attendent.</h3>
+      <div class="tabbed-area">
+        <div class="tab-content">
+
+          <form id="awesomeForm">
+            <label for="clientid">
+              Client ID Number:
+            </label>
+            <input type="text" class="textbox" name="clientid" id="clientid">
+            <button id="submitTheForm" class="submit" >Continue</button>
+            <a class="login" href="https://my.epitomax.net/PatientPortal/login.jsp">Already have an account? Login here.</a>
+          </form>
+        </div>
+      </div>
+      <span class="help">If you have questions or need help please call us at <a href="tel:8109660066">(810) 966-0066</a></span>
+      <span class="meta">Copyright &copy; <script type="text/javascript">document.write(new Date().getFullYear());</script> Renewal Christian Counseling Center LLC.</span>
+    </div>
+  </div>
+</body>
+</html>
