@@ -1,5 +1,8 @@
 # Epitomax Login Kiosk
 
+![g6_cymlkzez-8epkmwrae7mrv8msrezf3uh47mbvgvm](https://cloud.githubusercontent.com/assets/51578/3220110/926dd90e-effc-11e3-92ad-f458f2e21670.png)
+
+
 This branch is the user kiosk for the office locations. Deployable instructions will be added soon.
 
 This project uses Sass and Compass. [Learn how to set those up here](http://thesassway.com/beginner/getting-started-with-sass-and-compass).
