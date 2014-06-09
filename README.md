@@ -22,6 +22,8 @@ config = {
 
 ```
 
+The only other file needed to update is ```/assets/img/logo.png```
+
 ### Setup
 
 We have a short term goal to develop a bootstrap script to setup both the local and prodcution enviornments. This project can be run on GitHub pages for free with a few simple steps. (coming soon)
